@@ -4,12 +4,12 @@ function scuberGreetingForFeet(feet){
   if (feet<=400){
    return 'This one is on me!';
   }
-  else if(1999<feet&&feet<2500){
-   return `I will gladly take your thirty bucks.`;
+  else if(1999<feet&&feet<2500) {
+    return `I will gladly take your thirty bucks.`
   }
-  else {
-    return `No can do.`
-  }
+  else if (feet>2500){
+   return `No can do.`
+}
 }
   
 function ternaryCheckCity(City){
@@ -20,10 +20,10 @@ function ternaryCheckCity(City){
 function switchOnCharmFromTip(tip){
   // Write your code here!
 switch (tip) {
-  case `generous`: 
+  case "generous":
   return "Thank you so much."
     
-    case `not as generous`: 
+    case "not as generous": 
     return "Thank you."
 
   default:
